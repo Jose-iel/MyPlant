@@ -1,11 +1,17 @@
 {
   "expo": {
     "name": "myPlant",
+    "icon": "./assets/logoApp.png",
     "slug": "myPlant",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.ieltech.myPlant",
+      "versionCode": 2,
+      "permissions": []
+    }
   },
   "name": "myPlant"
 }
